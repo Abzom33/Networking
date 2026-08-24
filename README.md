@@ -10,7 +10,8 @@ Steps :
    - I am going to purchase the domain `abdinasiromar.org` on Cloudflare.
    -  Here it is :
 
-     <img width="1339" height="538" alt="image" src="https://github.com/user-attachments/assets/98c0c8e8-fc7b-4455-b62a-286db5f7c1fa" />
+    
+   <img width="1339" height="538" alt="image" src="https://github.com/user-attachments/assets/98c0c8e8-fc7b-4455-b62a-286db5f7c1fa" />
 
  ## 2. Set up EC2 instance 
  - First click on Lauch instance on EC2 instance page :
@@ -29,7 +30,7 @@ Steps :
 ##  3. Connect to EC2 instance
 -  We can connect to EC2 instance via SSH.
 -  Use this command :
-   ` ssh -i "Public Key" ec2-user@hostnameIP.compute-1.amazonaws.com
+   ` ssh -i "Public Key" ec2-user@hostnameIP.compute-1.amazonaws.com`
 
 
 ##  4. Install Nginx web server
