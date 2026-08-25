@@ -41,6 +41,27 @@ Use these commands :
 `sudo yum install -y nginx` 
 `sudo systemctl enable nginx`
 `sudo systemctl start nginx`
+
+
+5. Setting up DNS Record
+
+   - Created A record
+   - Name : root domain (@)
+   - IPv4 addres -> MY EC2 Public IPv4 address
+
+
+
+
+  6 . Final Result :
+
+  <img width="1599" height="847" alt="image" src="https://github.com/user-attachments/assets/ebf4f692-608c-4a95-8d3b-dcb0426e98c7" />
+
+  
+
+
+## Challenges :
+
+One challenge I encountered was understanding how SSL/TLS worked in practice .My site initially failed to load because Cloudflare's SSL/TLS setting was configured to "Full," which required valid SSL on the origin server. Switching the setting to "Flexible" resolved the issue by allowing HTTPS between the browser and Cloudflare without requiring SSL to be configured on the EC2 instance itself.
     
 
    
