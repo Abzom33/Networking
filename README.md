@@ -22,7 +22,7 @@ Tools used :
  -  Then choose these following settings :
  -  AMI (Amazon Machine Image ) -  `Amazon Linux`
  -  Instance Type - `t3.micro` (Choose the free tier !)
- -  Add Key pair login (RSA)
+ -  Add Key pair login (RSA) - This will be used for connecting your instance over SSH . 
  -  Security Groups :
      -  Allow SSH Traffic -> My IP address
      -  Allow HTTP -> port 80
