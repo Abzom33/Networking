@@ -1,5 +1,5 @@
 # Networking Project - Domain + EC2 + DNS
-This project demonstates on how to deploy  an nginx web server on an aws ec2 instance and  connect it  to a custom domain via Cloudflare DNS.
+This project demonstates on how to deploy  an nginx web server on an AWS EC2 instance and  connect it  to a custom domain via Cloudflare DNS.
 
 Tools used :
 - `AWS EC2 Ubuntu`
