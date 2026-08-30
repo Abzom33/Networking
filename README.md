@@ -45,7 +45,7 @@ Use these commands :
 `sudo systemctl start nginx`
 
 
-5. Setting up DNS Record
+## 5. Setting up DNS Record
 
    - Created A record
    - Name : root domain (@)
