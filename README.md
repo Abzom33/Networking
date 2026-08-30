@@ -1,8 +1,8 @@
 # Networking Project - Domain + EC2 + DNS
 
-## In this project , I will combining everything I have learnt which includes IP , DNS , Routing .
+ In this project , I will combining everything I have learnt which includes IP , DNS , Routing .
 
-## The objective for this project is to Buy a domain, deploy NGINX on an EC2 instance, and make the page load over your own domain.
+ The objective for this project is to Buy a domain, deploy NGINX on an EC2 instance, and make the page load over your own domain.
 
 Steps :
 
