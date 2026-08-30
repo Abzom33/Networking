@@ -63,7 +63,7 @@ Use these commands :
 
 ## Challenges :
 
-One challenge I encountered was understanding how SSL/TLS worked in practice .My site initially failed to load because Cloudflare's SSL/TLS setting was configured to "Full," which required valid SSL on the origin server. Switching the setting to "Flexible" resolved the issue by allowing HTTPS between the browser and Cloudflare without requiring SSL to be configured on the EC2 instance itself.
+One challenge I encountered was understanding how SSL/TLS worked in practice .My site initially failed to load because Cloudflare's SSL/TLS setting was configured to "Full," which required valid SSL on the origin server. Switching the setting to "Flexible" resolved the issue by allowing HTTP between the browser and Cloudflare without requiring SSL to be configured on the EC2 instance itself.
     
 
    
