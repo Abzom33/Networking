@@ -2,7 +2,7 @@
 This project demonstates on how to deploy  an NGINX web server on an AWS EC2 instance and  connect it  to a custom domain via Cloudflare DNS.
 
 Tools used :
-- `AWS EC2 Ubuntu`
+- `Amazon Linux`
 - `Cloudflare (DNS Setup)`
 - `Nginx Web Server`
 - `Security Groups`
@@ -44,12 +44,16 @@ Use these commands :
 `sudo systemctl enable nginx`
 `sudo systemctl start nginx`
 
+- You can also add these to your EC2 User Data so that it can start automatically when the instance runs
+
 
 ## 5. Setting up DNS Record
 
    - Created A record
    - Name : root domain (@)
-   - IPv4 addres -> MY EC2 Public IPv4 address
+   - IPv4 addres -> Elastic IP
+   -
+     This is done so that the IP address remains static
 
 
 
