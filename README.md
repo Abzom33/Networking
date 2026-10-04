@@ -8,6 +8,7 @@ Tools used :
 - `Security Groups`
 
 
+
  ## 1. Buy your own domain :
    - I am going to purchase the domain `abdinasiromar.org` on Cloudflare.
    -  Here it is :
@@ -39,7 +40,6 @@ Tools used :
 
 Use these commands :
 `sudo yum upgrade` 
-`sudo yum update`
 `sudo yum install -y nginx` 
 `sudo systemctl enable nginx`
 `sudo systemctl start nginx`
@@ -52,7 +52,7 @@ Use these commands :
    - Created A record
    - Name : root domain (@)
    - IPv4 addres -> Elastic IP
-   -
+   
      This is done so that the IP address remains static
 
 
